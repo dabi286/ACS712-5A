@@ -3,8 +3,8 @@ const float VCC = 5.0;
 const int PIN = A0;
 
 
-const float ON_THRESHOLD_A  = 0.20;   
-const float OFF_THRESHOLD_A = 0.12;   
+const float ON_THRESHOLD_A  = 0.20; //set open threshold  
+const float OFF_THRESHOLD_A = 0.12; //set close threshold 
 const uint16_t MIN_ON_MS    = 120;    
 const uint16_t MIN_OFF_MS   = 120;    
 
